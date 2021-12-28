@@ -292,6 +292,7 @@ double Polish (vector <string>& m)
 		pol.push_back(stack1.pop());
 	for (int i = 0; i < pol.size(); i++)
 		cout << pol[i];
+	cout << endl;
 
 	TStack <string> stack2(m.size());
 	double l, r, up;

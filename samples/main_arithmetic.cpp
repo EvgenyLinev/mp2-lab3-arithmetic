@@ -10,6 +10,7 @@ int main()
 {
 	try
 	{
+		string s;
 		cout<< "Please, enter math expression" << endl;
 		cin >> s;
 		s = DeleteSpaces(s);

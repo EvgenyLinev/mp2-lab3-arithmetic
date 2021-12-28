@@ -9,13 +9,10 @@
 // при вставке в полный стек должна перевыделяться память
 
 #ifndef __STACK_H__
-
 #define __STACK_H__
-
 #include <vector>
 #include <iostream>
 using namespace std;
-
 template <class T>
 class TStack
 {
